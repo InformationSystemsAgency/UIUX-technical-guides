@@ -1,5 +1,11 @@
 # Migrations Guide
 
+[Back to README](./README.md)
+
+## Quick Start
+
+[`coding-style.md`](./coding-style.md) | [`architecture-style.md`](./architecture-style.md) | [`logging-guide.md`](./logging-guide.md) | [`unit-testing-guide.md`](./unit-testing-guide.md) | [`migrations-guide.md`](./migrations-guide.md) | [`rbac-standards-guide.md`](./rbac-standards-guide.md)
+
 This guide explains how to write and run Directus schema migrations.
 
 It is based on the existing `.migrations` workspace and scripts already used in NewMoon repository.

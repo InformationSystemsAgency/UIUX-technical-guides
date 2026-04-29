@@ -1,0 +1,932 @@
+policy_id: "76310981-e5cb-487e-9995-9f038fc0f55b"
+policy_name: "Content Editor"
+policy_icon: "edit"
+policy_description: null
+policy_ip_access: null
+policy_enforce_tfa: true
+policy_admin_access: false
+policy_app_access: true
+role: "Content Editor"
+policies:
+  - name: "Can Manage All Articles"
+    collections:
+      - collection: articles
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: articles_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can Manage All Article Categories"
+    collections:
+      - collection: articles_categories
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can Manage All Categories"
+    collections:
+      - collection: categories
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: categories_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can Manage All Content Blocks"
+    collections:
+      - collection: articles_content_blocks
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_accordion_items
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_accordion_items_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_accordions
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_alert
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_alert_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_audio
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_button
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_carousel
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_carousel_items
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_carousel_items_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_code
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_divider
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_divider_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_embed
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_featured_link_items
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_featured_link_items_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_featured_links
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_gallery
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_gallery_files
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_gallery_items
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_gallery_items_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_group
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_group_content_blocks
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_image
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_image_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_richtext
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_richtext_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_service_card
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_service_card_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_social_media_link_items
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_social_media_links
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_social_media_platforms
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_social_media_platforms_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_title
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_title_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_video
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: content_containers_content_blocks
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: file_attachments
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: file_attachments_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: pages_content_blocks
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can Manage All Forms"
+    collections:
+      - collection: block_form_button
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_button_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_field
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_field_checkbox_group_options
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_field_checkbox_group_options_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_field_checkbox_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_field_input_field_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_field_radio_group_options
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_field_radio_group_options_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_field_textarea_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_field_validations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_field_validations_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_field_value_transformations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_panel
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_panel_content_blocks
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_rating
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_form_special_block
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can Manage All Content Displays"
+    collections:
+      - collection: block_content_display
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_content_display_articles
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_content_display_categories
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_content_display_content_types
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_content_display_exclude_categories
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_content_display_include_categories
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can Manage All Content Types"
+    collections:
+      - collection: content_types
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can Manage All Data Displays"
+    collections:
+      - collection: block_data_display
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_data_display_column_paths
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_data_display_column_paths_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_data_display_columns
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_data_display_columns_advanced_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_data_display_columns_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_data_display_filters
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_data_display_search_fields
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_data_display_search_fields_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: block_data_display_value_transformations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can Manage All Directus Dashboards"
+    collections:
+      - collection: directus_dashboards
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: directus_panels
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can Manage All Directus Files and Folders"
+    collections:
+      - collection: directus_files
+        actions:
+          create: true
+          update: true
+          delete: false
+          view: true
+      - collection: directus_folders
+        actions:
+          create: true
+          update: true
+          delete: false
+          view: true
+  - name: "Can Trigger All Manual Flows"
+    collections:
+      - collection: directus_flows
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+        constraints:
+          fields_json: '["id", "status", "name", "icon", "color", "options", "trigger"]'
+          permission_filter_json: '{"trigger": {"_eq": "manual"}}'
+  - name: "Can View Directus Users"
+    collections:
+      - collection: directus_users
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+  - name: "Can Manage Home"
+    collections:
+      - collection: content_containers
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: home
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: home_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: nag_bar_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can View All Directus Roles"
+    collections:
+      - collection: directus_roles
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+  - name: "Can Edit Their Own Profile"
+    collections:
+      - collection: directus_users
+        actions:
+          create: false
+          update: true
+          delete: false
+          view: false
+        constraints:
+          fields_json: '["first_name", "last_name", "email", "password", "location", "title", "description", "avatar", "language", "appearance", "theme_light", "theme_dark", "theme_light_overrides", "theme_dark_overrides", "tfa_secret"]'
+          permission_filter_json: '{"id": {"_eq": "$CURRENT_USER"}}'
+  - name: "Can Manage Layout"
+    collections:
+      - collection: footer
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: footer_link_sections
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: footer_link_sections_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: footer_links
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: footer_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: header
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: header_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: page_404
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: page_404_content_containers
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can Manage Home Content"
+    collections:
+      - collection: home_banner_content_blocks
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: home_content_containers
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can Manage All Info Cards"
+    collections:
+      - collection: info_card_types
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: info_card_types_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: info_cards
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: info_cards_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can Manage All Links"
+    collections:
+      - collection: links
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: links_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can View Metadata"
+    collections:
+      - collection: metadata
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+  - name: "Can Manage All Menus"
+    collections:
+      - collection: menu
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: menu_sections
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: menu_sections_links
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: menu_sections_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: menu_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can Manage All Pages"
+    collections:
+      - collection: pages
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: pages_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can View All Registires"
+    collections:
+      - collection: registry_collections
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: registry_column_paths
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: registry_fields
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+  - name: "Can Manage All Services"
+    collections:
+      - collection: service_pages
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: service_pages_form
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: service_pages_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: services
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: services_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can Manage All Special Blocks"
+    collections:
+      - collection: special_block_user_details
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+      - collection: special_block_user_details_translations
+        actions:
+          create: true
+          update: true
+          delete: true
+          view: true
+  - name: "Can View All Globals"
+    collections:
+      - collection: globals
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: languages
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: globals_block_audio_translations
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: globals_block_carousel_translations
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: globals_block_code_translations
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: globals_block_content_display_translations
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: globals_block_data_display_translations
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: globals_file_size_units_translations
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: globals_header_menu_translations
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: globals_pagination_texts_translations
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: globals_search_exclude_categories
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: globals_search_include_categories
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: globals_search_translations
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: globals_translations
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: globals_profile_translations
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: globals_block_form_field_translations
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true
+      - collection: block_form_field_date_and_time_translations
+        actions:
+          create: false
+          update: false
+          delete: false
+          view: true

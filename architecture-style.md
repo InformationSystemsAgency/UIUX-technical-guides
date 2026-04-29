@@ -2,6 +2,10 @@
 
 [Back to README](./README.md)
 
+## Quick Start
+
+[`coding-style.md`](./coding-style.md) | [`architecture-style.md`](./architecture-style.md) | [`logging-guide.md`](./logging-guide.md) | [`unit-testing-guide.md`](./unit-testing-guide.md) | [`migrations-guide.md`](./migrations-guide.md) | [`rbac-standards-guide.md`](./rbac-standards-guide.md)
+
 This guide codifies [NewMoon](https://github.com/InformationSystemsAgency/newmoon)’s current architecture so the team can scale safely and reuse the same structure in future projects with the same stack.
 
 ## 1) Architectural Principles

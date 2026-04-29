@@ -2,6 +2,10 @@
 
 [Back to README](./README.md)
 
+## Quick Start
+
+[`coding-style.md`](./coding-style.md) | [`architecture-style.md`](./architecture-style.md) | [`logging-guide.md`](./logging-guide.md) | [`unit-testing-guide.md`](./unit-testing-guide.md) | [`migrations-guide.md`](./migrations-guide.md) | [`rbac-standards-guide.md`](./rbac-standards-guide.md)
+
 This document describes the structured logging and error handling systems used across the [NewMoon](https://github.com/InformationSystemsAgency/newmoon) monorepo. Both `apps/api` (Hono) and `apps/web` (Nuxt/Nitro) produce machine-readable JSON logs via [Pino](https://github.com/pinojs/pino) and use shared error types for consistent error responses.
 
 **These principles are mandatory for every project using our base stack.**

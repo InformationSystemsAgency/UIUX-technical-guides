@@ -2,6 +2,10 @@
 
 [Back to README](./README.md)
 
+## Quick Start
+
+[`coding-style.md`](./coding-style.md) | [`architecture-style.md`](./architecture-style.md) | [`logging-guide.md`](./logging-guide.md) | [`unit-testing-guide.md`](./unit-testing-guide.md) | [`migrations-guide.md`](./migrations-guide.md) | [`rbac-standards-guide.md`](./rbac-standards-guide.md)
+
 This guide is based on patterns already used in [NewMoon](https://github.com/InformationSystemsAgency/newmoon). It is designed to be strict enough for consistency and practical enough to adopt immediately in this and future projects.
 
 ## 1) Baseline Formatting and Linting
