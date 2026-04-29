@@ -24,11 +24,11 @@ Structure
 
 ```mermaid
 flowchart TD
-  U[User] --> R[Roles (many)]
-  R --> P[Policies (many)]
-  P --> PM[Permissions (many)]
-  PM --> A[Actions: create update delete view]
-  PM --> C[Constraints: fields_json, permission_filter_json]
+  U["User"] --> R["Roles (many)"]
+  R --> P["Policies (many)"]
+  P --> PM["Permissions (many)"]
+  PM --> A["Actions: create, update, delete, view"]
+  PM --> C["Constraints: fields_json, permission_filter_json"]
 ```
 
 
