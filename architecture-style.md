@@ -105,7 +105,7 @@ flowchart TD
   CO --> ST[Pinia Stores]
   CO --> PL[Nuxt Plugins]
   PL --> NR[Nitro Routes]
-  NR --> API[NewMoon API (github.com/InformationSystemsAgency/newmoon)]
+  NR --> API["NewMoon API (github.com/InformationSystemsAgency/newmoon)"]
 ```
 
 Rule: if logic is reused by multiple pages/components, promote it to a composable.
