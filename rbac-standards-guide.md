@@ -146,7 +146,7 @@ Role mapping example
     - "Can View All Directus Files"
 ```
 
-Example from real project: [`docs/roles/policies-and-roles.yaml`](assets/policies-and-roles.yaml).
+Example in this repository (per-role policies sample): [`asset/content-editor-role-policies.yaml`](./asset/content-editor-role-policies.yaml). In application repos the merged artifact is usually `docs/roles/policies-and-roles.yaml`.
 
 ## 4) Required Artifacts
 
