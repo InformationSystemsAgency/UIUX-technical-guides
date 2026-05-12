@@ -227,7 +227,7 @@ flowchart LR
   B -->|API| C[Global error handler]
   C --> D[Structured log + stable JSON error]
   B -->|Web client| E[reportClientError]
-  E --> F[/api/client-log sink]
+  E --> F["/api/client-log sink"]
 ```
 
 ## 8) Testing Style
