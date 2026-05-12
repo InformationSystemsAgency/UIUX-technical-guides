@@ -182,3 +182,9 @@ Optional
 - `roles` section lists names only.
 - Constraints are present where needed.
 - No accidental sensitive system access.
+
+## 7) Tooling
+
+RBAC tooling (scripts and helpers for working with policies and roles) currently lives in the Newmoon repository; **this location is temporary** and may move later.
+
+[InformationSystemsAgency/newmoon — `tools/rbac` (develop)](https://github.com/InformationSystemsAgency/newmoon/tree/develop/tools/rbac)
